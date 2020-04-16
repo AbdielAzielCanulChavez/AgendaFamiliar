@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    tools:context=".actividades.RegistroFamiliaresActivity">
+
+    <EditText
+        android:id="@+id/nombrefam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/ic_user"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Nombre"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/apellidofam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/ic_user"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Apellido"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/telefonofam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/ic_phone"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Telefono"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/direccionfam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/ic_place"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Direccion"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/parentescofam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/ic_parentesco"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Parentesco"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/RegistrarFam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Registrar"
+        android:layout_margin="25dp"
+        android:background="#00BCD4"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/CancelarFam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Cancelar"
+        android:layout_margin="25dp"
+        android:background="#F44336"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BodyAlert</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="familiares">familiares</string>
+    <string name="hijos">hijos</string>
+    <string name="Acerca">Acerca</string>
+    <string name="informes">informes</string>
+</resources>

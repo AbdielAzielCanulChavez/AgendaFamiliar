@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_familiares"
+        android:icon="@drawable/ic_personf"
+        android:title="@string/familiares"/>
+    <item
+        android:id="@+id/nav_hijos"
+        android:icon="@drawable/ic_child"
+        android:title="@string/hijos" />
+
+
+    <item
+        android:id="@+id/nav_information"
+        android:icon="@drawable/ic_info"
+        android:title="@string/Acerca"/>
+</menu>

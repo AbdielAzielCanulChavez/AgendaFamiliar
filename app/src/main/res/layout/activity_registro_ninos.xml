@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    tools:context=".actividades.RegistroNinosActivity">
+
+    <EditText
+        android:id="@+id/nombrenino"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/ic_child"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Nombre"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/apellidonino"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/ic_child"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Apellido"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edadnino"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/ic_child"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Edad"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/enfermedadnino"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/ic_discapacidad"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Discapacidad"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/regisNinos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Registrar"
+        android:background="#00BCD4"
+        android:layout_margin="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/cancelarNinos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Cancelar"
+        android:background="#F44336"
+        android:layout_margin="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+
+</LinearLayout>
